@@ -13,18 +13,19 @@
 
     <property>
         <name>yarn.nodemanager.log-dirs</name>
-        <value>/mnt/home/5365100/yarn/0/logs,/mnt/home/5365100/yarn/1/logs,/mnt/home/5365100/yarn/2/logs</value>
+        <value>/mnt/home/1015146591/yarn/0/logs,/mnt/home/1015146591/yarn/1/logs,/mnt/home/1015146591/yarn/2/logs</value>
     </property>
 
     <property>
         <name>yarn.nodemanager.local-dirs</name>
-        <value>/mnt/home/5365100/yarn/0/local,/mnt/home/5365100/yarn/1/local,/mnt/home/5365100/yarn/2/local</value>
+        <value>/mnt/home/1015146591/yarn/0/local,/mnt/home/1015146591/yarn/1/local,/mnt/home/1015146591/yarn/2/local</value>
     </property>
     <property>
         <name>yarn.nodemanager.aux-services</name>
         <value>mapreduce_shuffle</value>
     </property>
 </configuration>
+
 ```
 
 **2. 配置/mnt/home/5365100/hadoop-2.7.6/etc/hadoop/mapred-site.xml(这个文件一开始不存在，自己手动创建就行)**
