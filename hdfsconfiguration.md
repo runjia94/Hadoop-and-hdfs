@@ -36,7 +36,7 @@ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
 ```
 -然后执行 hadoop， 可以运行则证明成功
 
-**6. 修改core-site.xml 文件**
+**6. 修改core-site.xml 文件，注意，这里bigdata0不用改**
 ```
 <configuration>
         <property>
